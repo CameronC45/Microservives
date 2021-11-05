@@ -1,0 +1,25 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "babel-watch -L src/index.js"
+  },
+  "devDependencies": {
+    "babel-watch": "^7.6.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.0",
+    "apollo-server": "^3.4.0",
+    "apollo-server-express": "^3.4.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "graphql": "^16.0.1"
+  }
+}
